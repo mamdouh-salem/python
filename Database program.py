@@ -50,6 +50,7 @@ while True :
         view_students ()
         option = input ( " enter option number: " )
     elif option == '3':
+        print ( database [ 'name'] )
         update_student ()
         option = input ( " enter option number: " )
     elif option == '4':
